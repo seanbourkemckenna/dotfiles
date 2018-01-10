@@ -26,4 +26,4 @@ colorscheme elrond
 " start NerdTree
 autocmd VimEnter * NERDTree
 
-alias config='/usr/bin/git --git-dir=/Users/sean/.cfg/ --work-tree=/Users/sean'
+
