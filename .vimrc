@@ -39,7 +39,7 @@ set autoindent
 call vundle#end()            
 filetype plugin indent on   
 syntax enable
-colorscheme elrond
+colorscheme molokai
 
 " start NerdTree
 autocmd VimEnter * NERDTree
