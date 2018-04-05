@@ -6,6 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
+
 Plugin 'scrooloose/nerdtree' 
 
 " Fuzzy
@@ -27,6 +28,8 @@ Plugin 'vim-airline/vim-airline'
 
 Plugin 'vim-airline/vim-airline-themes'
 
+
+
 " Spaces & Tabs {{{
 set tabstop=2
 set expandtab " use spaces for tabs
@@ -46,3 +49,4 @@ colorscheme molokai
 
 " start NerdTree
 autocmd VimEnter * NERDTree
+set number
