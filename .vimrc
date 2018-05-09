@@ -50,3 +50,9 @@ colorscheme molokai
 " start NerdTree
 autocmd VimEnter * NERDTree
 set number
+
+" no arrows
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
